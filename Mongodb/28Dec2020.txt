@@ -1,0 +1,18 @@
+db.hospital.insert({"Patient ID":100, "Department": "Child Health", "Patient_Name": "Zia", "Purpose of Visit": "Cold", "Reports": "X-Ray", "Video Consultation":true, "Consultant": "Dr.Ahmed", "Category":"Pediatrician", "Payment Method": "Bitcoin", "Amount":2500})
+db.hospital.insert({"Patient ID":101, "Department": "Women Health", "Patient_Name": "Maqsood", "Purpose of Visit": "Blood Pressure", "Reports": "Prescription", "Video Consultation":true, "Consultant": "Dr.Vinod", "Category":"Gynocologist", "Payment Method": "Cash", "Amount":3000})
+db.hospital.insert({"Patient ID":102, "Department": "General", "Patient_Name": "Osman", "Purpose of Visit": "Fever", "Reports": "Prescription", "Video Consultation":true, "Consultant": "Dr.Riaz", "Category":"General Physician", "Payment Method": "CreditCard", "Amount":1000})
+
+
+db.hospital.update({"_id" : ObjectId("5fe9fad1969d0afec4f6aade")}, {$set: {
+    "Patient ID" : 96.0,
+    "Department" : "Child Health",
+    "Patient_Name" : "Ibad",
+    "Purpose of Visit" : "Cold",
+    "Reports" : "X-Ray",
+    "Video Consultation" : true,
+    "Consultant" : "Dr.Ahmed",
+    "Category" : "Pediatrician",
+    "Payment Method" : "Bitcoin",
+    "Amount" : 2500.0
+}
+})
