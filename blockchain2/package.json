@@ -1,0 +1,17 @@
+{
+  "name": "blockchain2",
+  "version": "1.0.0",
+  "description": "second",
+  "main": "app.js",
+  "scripts": {
+    "test": "test2"
+  },
+  "keywords": [
+    "bc2"
+  ],
+  "author": "Sohaib Sharih",
+  "license": "ISC",
+  "dependencies": {
+    "js-sha256": "^0.9.0"
+  }
+}
